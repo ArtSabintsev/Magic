@@ -11,8 +11,11 @@ Fear not, `PrintlnMagic` is here to bring you back to the goold old days of `DLo
 - Initial release
 
 ### Installation
-- **CocoaPods**: `pod 'PrintlnMagic'`
-- **Manual**: Copy the `PrintlnMagic.swift` file into your project
+- **CocoaPods**
+  - `pod 'PrintlnMagic'`
+  - Make sure to call `import PrintlnMagic` in the files you want to use it. This is a CocoaPods-specific step.
+- **Manual**
+  - Copy the `PrintlnMagic.swift` file into your project
 
 ### Usage
 You're done immediately after adding `PrintlnMagic.swift` to your project! 
