@@ -5,7 +5,7 @@
 
 If you're like me, you miss seeing the filename, method name, and/or line number in your `println()` statements in your Swift projects.
 
-Fear not, `PrintlnMagic` is here to bring you back to the goold old days of `DLog`.
+Fear not, `PrintlnMagic` is here to bring you back to the good old days of `DLog`.
 
 ### Changelog (v1.0.0)
 - Initial release
