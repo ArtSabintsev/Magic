@@ -15,6 +15,6 @@ import Foundation
 */
 public func println<T>(object: T, _ file: String = __FILE__, _ function: String = __FUNCTION__, _ line: Int = __LINE__)
 {
-    let filename = file.lastPathComponent.stringByReplacingOccurrencesOfString(".swift", withString: "")
+    let filename = file.lastPathComponent.stringByDeletingPathExtension
     print("\(filename).\(function)[\(line)]: \(object)\n")
 }
