@@ -7,8 +7,8 @@ If you're like me, you miss seeing the filename, method name, and/or line number
 
 Fear not, `PrintlnMagic` is here to bring you back to the good old days of `DLog`.
 
-### Changelog (v1.1.0)
-- Update string replacement method ([PR #1](https://github.com/ArtSabintsev/PrintlnMagic/pull/1), thanks to [Ben Kane](https://github.com/pasta12))
+### Changelog (v1.1.1)
+- Updated document comments, including adding the the original `println()` comments.
 
 ### Installation
 - **CocoaPods**
