@@ -7,8 +7,8 @@ If you're like me, you miss seeing the filename, method name, and/or line number
 
 Fear not, `PrintlnMagic` is here to bring you back to the good old days of `DLog`.
 
-### Changelog (v1.1.1)
-- Updated document comments, including adding the the original `println()` comments.
+### Changelog (v1.2.0)
+- Added `magic` function for Xcode6b3, as `println()` can no longer be overridden.
 
 ### Installation
 - **CocoaPods**
@@ -20,9 +20,14 @@ Fear not, `PrintlnMagic` is here to bring you back to the good old days of `DLog
 ### Usage
 You're done immediately after adding `PrintlnMagic.swift` to your project! 
 
+#### Xcode 6.1/6.2
 The results of your existing (e.g., boring) `println()` statements will be overriden in the console with the new format.
 
-**Before `PrintlnMagic`**
+#### Xcode 6.3bX (X = 1, 2, etc.)
+Replace all instances of `println()` in your project with `magic()`.
+
+#### Example
+Before `PrintlnMagic`, your console will display the following from `println()`:
 
 ```swift
 
@@ -30,7 +35,7 @@ This is a test string.
 
 ```
 
-**After `PrintlnMagic`**
+After `PrintlnMagic`, your console will display the following from `println()` or `magic()`, depending on your version of Xcode:
 
 ```swift
 ViewController.viewDidLoad()[15]: This is a test string.
