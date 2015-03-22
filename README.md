@@ -23,7 +23,7 @@ Fear not, `PrintlnMagic` is here to bring you back to the good old days of `DLog
 Replace all the `println()` statements in your project with `magic()`.
 
 #### println()
-Before Xcode 6.3, all instances of `println()` were automaticlaly overridden by this the redefined `println()` method in *PrintlnMagic.swift*.
+Before Xcode 6.3, all instances of `println()` were automaticlaly overridden by the redefined `println()` method in *PrintlnMagic.swift*.
 
 After Xcode 6.3, and thanks to some handy-work on the part of [Jesse Squires](https://github.com/jessesquires) in [Issue #2](https://github.com/ArtSabintsev/PrintlnMagic/issues/2), you can override `println()` using `MyAppName.println()`. In this example, `MyAppName` is the name attached to your `.xcodeproj`.
 
