@@ -18,13 +18,15 @@ Fear not, `PrintlnMagic` is here to bring you back to the good old days of `DLog
   - Copy the `PrintlnMagic.swift` file into your project
 
 ### Usage
-You're done immediately after adding `PrintlnMagic.swift` to your project! 
 
-#### Xcode 6.1/6.2
-The results of your existing (e.g., boring) `println()` statements will be overriden in the console with the new format.
+#### magic()
+Replace all the `println()` statements in your project with `magic()`.
 
-#### Xcode 6.3bX (X = 1, 2, etc.)
-Replace all instances of `println()` in your project with `magic()`.
+#### println()
+Before Xcode 6.3, all instances of `println()` were automaticlaly overridden by this the redefined `println()` method in *PrintlnMagic.swift*.
+
+After Xcode 6.3, and thanks to some handy-work on the part of [Jesse Squires](https://github.com/jessesquires) in [Issue #2](https://github.com/ArtSabintsev/PrintlnMagic/issues/2), you can override `println()` using `MyAppName.println()`. In this example, `MyAppName` is the name attached to your `.xcodeproj`.
+
 
 #### Example
 Before `PrintlnMagic`, your console will display the following from `println()`:
@@ -35,7 +37,7 @@ This is a test string.
 
 ```
 
-After `PrintlnMagic`, your console will display the following from `println()` or `magic()`, depending on your version of Xcode:
+After `PrintlnMagic`, your console will display the following from `magic()` and/or `MyAppName.println()`:
 
 ```swift
 ViewController.viewDidLoad()[15]: This is a test string.
