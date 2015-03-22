@@ -8,6 +8,8 @@
 import Foundation
 
 /**
+    This method is called using `MyAppName.println()`, where MyAppName is the name of your .xcodeproj file.
+
     Writes the textual representation of `object` and a newline character into the standard output. 
     The textual representation is obtained from the `object` using its protocol conformances, 
     in the following order of preference: `Streamable`, `Printable`, `DebugPrintable`.

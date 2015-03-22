@@ -7,8 +7,8 @@ If you're like me, you miss seeing the filename, method name, and/or line number
 
 Fear not, `PrintlnMagic` is here to bring you back to the good old days of `DLog`.
 
-### Changelog (v1.2.0)
-- Added `magic` function for Xcode6b3, as `println()` can no longer be overridden.
+### Changelog (v1.2.1)
+- Updated method `println()` method description and README based on [#2](https://github.com/ArtSabintsev/PrintlnMagic/issues/2).
 
 ### Installation
 - **CocoaPods**
