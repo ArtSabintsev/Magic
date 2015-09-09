@@ -1,35 +1,31 @@
-# PrintlnMagic
-## An alternative for Swift's `println()` along the lines of `DLog`
+# Magic
+## An alternative for Swift's `print()` along the lines of `DLog`
 
 ### Background
 
-If you're like me, you miss seeing the filename, method name, and/or line number in your `println()` statements in your Swift projects.
+If you're like me, you miss seeing the filename, method name, and/or line number in your `print` statements in your Swift projects.
 
-Fear not, `PrintlnMagic` is here to bring you back to the good old days of `DLog`.
+Fear not, `Magic` is here to bring you back to the good old days of `DLog`.
 
-### Changelog (v1.2.1)
-- Updated method `println()` method description and README based on [#2](https://github.com/ArtSabintsev/PrintlnMagic/issues/2).
+This extension was previously known as **PrintlnMagic**.
+
+### Changelog (v2.0.0)
+- Updated to use Swift 2.0 syntax
+- Updated for iOS 9
+- Contains only one global method named `magic()`
 
 ### Installation
 - **CocoaPods**
-  - `pod 'PrintlnMagic'`
-  - Make sure to call `import PrintlnMagic` in the files you want to use it. This is a CocoaPods-specific step.
-- **Manual**
-  - Copy the `PrintlnMagic.swift` file into your project
+  - `pod 'Magic'`
+  - Make sure to call `import Magic` in the files you want to use it.
 
 ### Usage
 
 #### magic()
-Replace all the `println()` statements in your project with `magic()`.
-
-#### println()
-Before Xcode 6.3, all instances of `println()` were automaticlaly overridden by the redefined `println()` method in *PrintlnMagic.swift*.
-
-After Xcode 6.3, and thanks to some handy-work on the part of [Jesse Squires](https://github.com/jessesquires) in [Issue #2](https://github.com/ArtSabintsev/PrintlnMagic/issues/2), you can override `println()` using `MyAppName.println()`. In this example, `MyAppName` is the name attached to your `.xcodeproj`.
-
+Replace all the `print()` statements in your project with `magic()`.
 
 #### Example
-Before `PrintlnMagic`, your console will display the following from `println()`:
+Before `Magic`, your console will display the following from `print()`:
 
 ```swift
 
@@ -37,14 +33,16 @@ This is a test string.
 
 ```
 
-After `PrintlnMagic`, your console will display the following from `magic()` and/or `MyAppName.println()`:
+After `Magic`, your console will display the following from `magic()`:
 
 ```swift
-ViewController.viewDidLoad()[15]: This is a test string.
-// ViewController is the filename
-// viewDidLoad() is the name of the function 
-// [15] is the line number
-``` 
+ViewController.viewDidLoad()[17]: This is a test string.
+
+// Where:
+//     ViewController is the filename
+//     viewDidLoad() is the name of the function
+//     [17] is the line number
+```
 
 ### Created and maintainted by
 [Arthur Ariel Sabintsev](http://www.sabintsev.com)
