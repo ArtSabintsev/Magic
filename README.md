@@ -1,5 +1,5 @@
 # Magic
-## An alternative for Swift's `print()` along the lines of `DLog`
+## A Swift alternative for Objective-C's DLog macro.
 
 ### Background
 
