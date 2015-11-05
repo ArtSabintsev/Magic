@@ -2,6 +2,8 @@
 
 ### A Swift alternative for Objective-C's DLog macro.
 
+---
+
 ## Background
 
 If you're like me, you miss seeing the filename, method name, and/or line number in your `print` statements in your Swift projects.
