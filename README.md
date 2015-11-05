@@ -29,7 +29,7 @@ Replace all the `print()` statements in your project with `magic()`.
 ### Example
 Before `Magic`, your console will display the following from `print()`:
 
-```swift
+```
 
 This is a test string.
 
