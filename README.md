@@ -24,6 +24,11 @@ pod 'Magic'
 github "ArtSabintsev/Magic"
 ```
 
+### Swift Package Manager
+``` swift
+.Package(url: "https://github.com/ArtSabintsev/Magic.git", majorVersion: 2)
+```
+#### Manual
 
 ## Setup
 
