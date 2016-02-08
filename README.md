@@ -12,15 +12,18 @@ Fear not, `Magic` is here to bring you back to the good old days of `DLog`.
 
 This extension was previously known as **PrintlnMagic**.
 
-## Changelog (v2.0.0)
-- Updated to use Swift 2.0 syntax
-- Updated for iOS 9
-- Contains only one global method named `magic()`
-
 ## Installation
-- **CocoaPods**
-  - `pod 'Magic'`
-  - Make sure to call `import Magic` in the files you want to use it.
+
+### **CocoaPods**
+``` ruby
+pod 'Magic'
+```
+
+### **Carthage**
+``` swift
+github "ArtSabintsev/Magic"
+```
+
 
 ## Setup
 
