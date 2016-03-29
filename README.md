@@ -33,7 +33,7 @@ github "ArtSabintsev/Magic"
 
 Replace all the `print()` statements in your project with `magic()`.
 
-### Example
+## Example
 Before `Magic`, your console will display the following from `print()`:
 
 ```
