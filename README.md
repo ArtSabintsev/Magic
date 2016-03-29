@@ -28,7 +28,6 @@ github "ArtSabintsev/Magic"
 ``` swift
 .Package(url: "https://github.com/ArtSabintsev/Magic.git", majorVersion: 2)
 ```
-#### Manual
 
 ## Setup
 
