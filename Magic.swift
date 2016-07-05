@@ -20,10 +20,10 @@ import Foundation
     - parameter line:     Defaults to the line number within the file in which magic() was called. Do not override this default.
 
 */
-public func magic<T>(object: T, _ file: String = #file, _ function: String = #function, _ line: Int = #line)
+public func magic<T>(_ object: T, _ file: String = #file, _ function: String = #function, _ line: Int = #line)
 {
     let fileString = file as NSString
     let fileLastPathComponent = fileString.lastPathComponent as NSString
-    let filename = fileLastPathComponent.stringByDeletingPathExtension
+    let filename = fileLastPathComponent.deletingPathExtension
     print("\(filename).\(function)[\(line)]: \(object)\n", terminator: "")
 }
