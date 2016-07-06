@@ -18,11 +18,21 @@ This extension was previously known as **PrintlnMagic**.
 ``` ruby
 pod 'Magic'
 ```
+For Swift 3 support:
+
+```ruby
+pod 'Magic', :git => 'https://github.com/ArtSabintsev/Magic.git', :branch => 'swift3'
+```
 
 ### **Carthage**
 ``` swift
 github "ArtSabintsev/Magic"
 ```
+
+For Swift 3 support:
+
+``` swift
+github "ArtSabintsev/Magic" "swift3"
 
 ### Swift Package Manager
 ``` swift
