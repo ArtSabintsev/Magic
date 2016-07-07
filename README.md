@@ -33,6 +33,7 @@ For Swift 3 support:
 
 ``` swift
 github "ArtSabintsev/Magic" "swift3"
+```
 
 ### Swift Package Manager
 ``` swift
