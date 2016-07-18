@@ -2,6 +2,7 @@
 
 ### A Swift alternative for Objective-C's DLog macro.
 
+ ![Cocoapods](https://img.shields.io/cocoapods/v/Magic.svg) ![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat) ![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)
 ---
 
 ## Background
@@ -18,10 +19,21 @@ This extension was previously known as **PrintlnMagic**.
 ``` ruby
 pod 'Magic'
 ```
+For Swift 3 support:
+
+```ruby
+pod 'Magic', :git => 'https://github.com/ArtSabintsev/Magic.git', :branch => 'swift3'
+```
 
 ### **Carthage**
 ``` swift
 github "ArtSabintsev/Magic"
+```
+
+For Swift 3 support:
+
+``` swift
+github "ArtSabintsev/Magic" "swift3"
 ```
 
 ### Swift Package Manager
