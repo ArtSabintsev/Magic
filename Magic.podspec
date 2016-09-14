@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Magic"
-  s.version      = "2.1.0"
+  s.version      = "3.0.0"
   s.summary      = "An alternative for Swift's print() along the lines of DLog."
 
   s.description  = <<-DESC
