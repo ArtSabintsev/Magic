@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Magic"
-  s.version      = "3.0.0"
+  s.version      = "3.0.1"
   s.summary      = "An alternative for Swift's print() along the lines of DLog."
 
   s.description  = <<-DESC
@@ -15,7 +15,7 @@ Siren is actively maintained by Arthur Sabintsev.
   s.authors      = { "Arthur Ariel Sabintsev" => "arthur@sabintsev.com"}
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/ArtSabintsev/Magic.git", :tag => s.version.to_s }
-  s.source_files = 'Magic.swift'
+  s.source_files = 'Sources/Magic.swift'
   s.requires_arc = true
 
 end

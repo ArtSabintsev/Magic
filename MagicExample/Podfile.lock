@@ -1,0 +1,16 @@
+PODS:
+  - Magic (3.0.1)
+
+DEPENDENCIES:
+  - Magic (from `../`)
+
+EXTERNAL SOURCES:
+  Magic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Magic: 4405272df77067eed2c6415ff1b12d6e796c809a
+
+PODFILE CHECKSUM: 4ee2286947b057c8fc7e3eb7651616f0e96bb5e1
+
+COCOAPODS: 1.2.0
