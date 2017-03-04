@@ -15,7 +15,7 @@ Siren is actively maintained by Arthur Sabintsev.
   s.authors      = { "Arthur Ariel Sabintsev" => "arthur@sabintsev.com"}
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/ArtSabintsev/Magic.git", :tag => s.version.to_s }
-  s.source_files = 'Sources/*.swift'
+  s.source_files = 'Sources/'
   s.requires_arc = true
 
 end
