@@ -18,7 +18,6 @@ import Foundation
     - parameter file:     Defaults to the name of the file that called magic(). Do not override this default.
     - parameter function: Defaults to the name of the function within the file in which magic() was called. Do not override this default.
     - parameter line:     Defaults to the line number within the file in which magic() was called. Do not override this default.
-
 */
 public func magic<T>(_ object: T, _ file: String = #file, _ function: String = #function, _ line: Int = #line)
 {
