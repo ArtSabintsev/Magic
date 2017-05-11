@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 If you're like me, you miss seeing the filename, method name, and/or line number in your print() statements in your Swift projects.
 
 Fear not, Magic is here to bring you back to the goold old days of DLog.
-Siren is actively maintained by Arthur Sabintsev.
+Magic is actively maintained by Arthur Sabintsev.
                    DESC
 
   s.homepage     = "https://github.com/ArtSabintsev/Magic"
