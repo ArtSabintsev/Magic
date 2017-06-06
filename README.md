@@ -23,24 +23,12 @@ For Swift 3 support:
 pod 'Magic'
 ```
 
-For Swift 2.3 support:
-
-```ruby
-pod 'Magic', :git => 'https://github.com/ArtSabintsev/Magic.git', :branch => 'swift2.3'
-```
-
 ### **Carthage**
 
 For Swift 3 support:
 
 ``` swift
 github "ArtSabintsev/Magic"
-```
-
-For Swift 2.3 support:
-
-``` swift
-github "ArtSabintsev/Magic" "swift2.3"
 ```
 
 ### Swift Package Manager
