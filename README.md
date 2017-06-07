@@ -15,20 +15,27 @@ This extension was previously known as **PrintlnMagic**.
 
 ## Installation
 
-### **CocoaPods**
-
+### CocoaPods
 For Swift 3 support:
-
-``` ruby
+```ruby
 pod 'Magic'
 ```
 
-### **Carthage**
+For Swift 4 support:
+```ruby
+pod 'Magic', :git => 'https://github.com/ArtSabintsev/Magic.git', :branch => 'swift4'
+```
 
+### Carthage
 For Swift 3 support:
 
-``` swift
+```swift
 github "ArtSabintsev/Magic"
+```
+
+For Swift 4 support:
+```swift
+github "ArtSabintsev/Magic", "swift4"
 ```
 
 ### Swift Package Manager
