@@ -2,7 +2,7 @@
 
 ### A Swift alternative for Objective-C's DLog macro.
 
-![Swift Support](https://img.shields.io/badge/Swift-2.3%2C%203.1%2C%203.2%2C%204.0-orange.svg)
+![Swift Support](https://img.shields.io/badge/Swift-3.1%2C%203.2%2C%204.0-orange.svg)
 
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/Magic.svg)]()  [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)]() [![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/dt/Magic.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/dm/Magic.svg)]()
@@ -17,6 +17,8 @@ Fear not, `Magic` is here to bring you back to the good old days of `DLog`.
 This extension was previously known as **PrintlnMagic**.
 
 ## Installation
+
+The `master` branch of Magic is compatible with Swift >= v3.1
 
 ### CocoaPods
 ```ruby
