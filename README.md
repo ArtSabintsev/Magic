@@ -4,8 +4,7 @@
 
 ![Swift Support](https://img.shields.io/badge/Swift-3.1%2C%203.2%2C%204.0-orange.svg)
 
-
-[![CocoaPods](https://img.shields.io/cocoapods/v/Magic.svg)]()  [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)]() [![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/dt/Magic.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/dm/Magic.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/v/Magic.svg)]()  [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)]() [![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)]()
 ---
 
 ## Background
